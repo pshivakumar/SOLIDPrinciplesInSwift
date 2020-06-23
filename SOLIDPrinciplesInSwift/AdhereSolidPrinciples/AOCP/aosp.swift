@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 protocol Printable {
     func printDetails() -> String
 }

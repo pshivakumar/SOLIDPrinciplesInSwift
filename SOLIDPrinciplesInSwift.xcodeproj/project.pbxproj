@@ -18,6 +18,8 @@
 		FA64DB9D24A1FB5E00E99270 /* vsrp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DB9C24A1FB5E00E99270 /* vsrp.swift */; };
 		FA64DBA224A233EC00E99270 /* vocp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DBA124A233EC00E99270 /* vocp.swift */; };
 		FA64DBA424A23B9500E99270 /* aosp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DBA324A23B9500E99270 /* aosp.swift */; };
+		FA64DBA824A2451D00E99270 /* alsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DBA724A2451D00E99270 /* alsp.swift */; };
+		FA64DBAA24A2456C00E99270 /* vlsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DBA924A2456C00E99270 /* vlsp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		FA64DB9C24A1FB5E00E99270 /* vsrp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vsrp.swift; sourceTree = "<group>"; };
 		FA64DBA124A233EC00E99270 /* vocp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocp.swift; sourceTree = "<group>"; };
 		FA64DBA324A23B9500E99270 /* aosp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aosp.swift; sourceTree = "<group>"; };
+		FA64DBA724A2451D00E99270 /* alsp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alsp.swift; sourceTree = "<group>"; };
+		FA64DBA924A2456C00E99270 /* vlsp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vlsp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 		FA64DB9A24A1FA0F00E99270 /* VoilateSolidPrinciples */ = {
 			isa = PBXGroup;
 			children = (
+				FA64DBA624A2450800E99270 /* VLSP */,
 				FA64DBA024A233BD00E99270 /* VOCP */,
 				FA64DB9B24A1FB3E00E99270 /* VSRP */,
 			);
@@ -137,6 +142,7 @@
 		FA64DB9E24A1FB8B00E99270 /* AdhereSolidPrinciples */ = {
 			isa = PBXGroup;
 			children = (
+				FA64DBA524A244F900E99270 /* ALSP */,
 				FA64DB9F24A233AC00E99270 /* AOCP */,
 				FA64DB9724A1F82300E99270 /* ASRP */,
 			);
@@ -157,6 +163,22 @@
 				FA64DBA124A233EC00E99270 /* vocp.swift */,
 			);
 			path = VOCP;
+			sourceTree = "<group>";
+		};
+		FA64DBA524A244F900E99270 /* ALSP */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DBA724A2451D00E99270 /* alsp.swift */,
+			);
+			path = ALSP;
+			sourceTree = "<group>";
+		};
+		FA64DBA624A2450800E99270 /* VLSP */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DBA924A2456C00E99270 /* vlsp.swift */,
+			);
+			path = VLSP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +287,10 @@
 				FA64DBA424A23B9500E99270 /* aosp.swift in Sources */,
 				FA64DB7424A108E300E99270 /* AppDelegate.swift in Sources */,
 				FA64DB7624A108E300E99270 /* SceneDelegate.swift in Sources */,
+				FA64DBA824A2451D00E99270 /* alsp.swift in Sources */,
 				FA64DB9D24A1FB5E00E99270 /* vsrp.swift in Sources */,
 				FA64DBA224A233EC00E99270 /* vocp.swift in Sources */,
+				FA64DBAA24A2456C00E99270 /* vlsp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
