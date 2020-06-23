@@ -14,6 +14,10 @@
 		FA64DB7D24A108E300E99270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA64DB7C24A108E300E99270 /* Assets.xcassets */; };
 		FA64DB8024A108E300E99270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64DB7E24A108E300E99270 /* LaunchScreen.storyboard */; };
 		FA64DB8B24A108E300E99270 /* SOLIDPrinciplesInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DB8A24A108E300E99270 /* SOLIDPrinciplesInSwiftTests.swift */; };
+		FA64DB9924A1F86400E99270 /* asrp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DB9824A1F86400E99270 /* asrp.swift */; };
+		FA64DB9D24A1FB5E00E99270 /* vsrp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DB9C24A1FB5E00E99270 /* vsrp.swift */; };
+		FA64DBA224A233EC00E99270 /* vocp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DBA124A233EC00E99270 /* vocp.swift */; };
+		FA64DBA424A23B9500E99270 /* aosp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64DBA324A23B9500E99270 /* aosp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		FA64DB8624A108E300E99270 /* SOLIDPrinciplesInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOLIDPrinciplesInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA64DB8A24A108E300E99270 /* SOLIDPrinciplesInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDPrinciplesInSwiftTests.swift; sourceTree = "<group>"; };
 		FA64DB8C24A108E300E99270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64DB9824A1F86400E99270 /* asrp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asrp.swift; sourceTree = "<group>"; };
+		FA64DB9C24A1FB5E00E99270 /* vsrp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vsrp.swift; sourceTree = "<group>"; };
+		FA64DBA124A233EC00E99270 /* vocp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocp.swift; sourceTree = "<group>"; };
+		FA64DBA324A23B9500E99270 /* aosp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aosp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		FA64DB7224A108E300E99270 /* SOLIDPrinciplesInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FA64DB9E24A1FB8B00E99270 /* AdhereSolidPrinciples */,
+				FA64DB9A24A1FA0F00E99270 /* VoilateSolidPrinciples */,
 				FA64DB7324A108E300E99270 /* AppDelegate.swift */,
 				FA64DB7524A108E300E99270 /* SceneDelegate.swift */,
 				FA64DB7724A108E300E99270 /* ViewController.swift */,
@@ -97,6 +107,56 @@
 				FA64DB8C24A108E300E99270 /* Info.plist */,
 			);
 			path = SOLIDPrinciplesInSwiftTests;
+			sourceTree = "<group>";
+		};
+		FA64DB9724A1F82300E99270 /* ASRP */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DB9824A1F86400E99270 /* asrp.swift */,
+			);
+			path = ASRP;
+			sourceTree = "<group>";
+		};
+		FA64DB9A24A1FA0F00E99270 /* VoilateSolidPrinciples */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DBA024A233BD00E99270 /* VOCP */,
+				FA64DB9B24A1FB3E00E99270 /* VSRP */,
+			);
+			path = VoilateSolidPrinciples;
+			sourceTree = "<group>";
+		};
+		FA64DB9B24A1FB3E00E99270 /* VSRP */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DB9C24A1FB5E00E99270 /* vsrp.swift */,
+			);
+			path = VSRP;
+			sourceTree = "<group>";
+		};
+		FA64DB9E24A1FB8B00E99270 /* AdhereSolidPrinciples */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DB9F24A233AC00E99270 /* AOCP */,
+				FA64DB9724A1F82300E99270 /* ASRP */,
+			);
+			path = AdhereSolidPrinciples;
+			sourceTree = "<group>";
+		};
+		FA64DB9F24A233AC00E99270 /* AOCP */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DBA324A23B9500E99270 /* aosp.swift */,
+			);
+			path = AOCP;
+			sourceTree = "<group>";
+		};
+		FA64DBA024A233BD00E99270 /* VOCP */ = {
+			isa = PBXGroup;
+			children = (
+				FA64DBA124A233EC00E99270 /* vocp.swift */,
+			);
+			path = VOCP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA64DB7824A108E300E99270 /* ViewController.swift in Sources */,
+				FA64DB9924A1F86400E99270 /* asrp.swift in Sources */,
+				FA64DBA424A23B9500E99270 /* aosp.swift in Sources */,
 				FA64DB7424A108E300E99270 /* AppDelegate.swift in Sources */,
 				FA64DB7624A108E300E99270 /* SceneDelegate.swift in Sources */,
+				FA64DB9D24A1FB5E00E99270 /* vsrp.swift in Sources */,
+				FA64DBA224A233EC00E99270 /* vocp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
