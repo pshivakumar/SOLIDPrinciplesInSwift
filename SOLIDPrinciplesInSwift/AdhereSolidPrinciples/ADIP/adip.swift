@@ -23,7 +23,7 @@ class ADIPFileSystemManager: Storage {
 class ADIPDBManager: Storage {
     
     public func save(arr: [String]?) -> Bool {
-        // Save to DB System
+        // Save to Database System
         return true
     }
 }

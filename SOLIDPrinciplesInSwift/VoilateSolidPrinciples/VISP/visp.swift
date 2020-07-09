@@ -53,7 +53,7 @@ class VISPNetHandler:GenericHandler {
     }
     
     func encryptFile(key: String) -> Data? {
-        // NOT Required to be implemented in Net Handler, Violate SOLID ISP
+        // NOT Required to be implemented in Net Handler, Violates SOLID ISP
         
         return nil
     }
